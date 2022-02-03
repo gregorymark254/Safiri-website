@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Shuttle</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="images/favicon.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <script src="bootstrap/js/jquery-3.6.0.js"></script>
+    <script src="bootstrap/js/popper.min.js"></script>
+    <script src="bootstrap/js/bootstrap.js"></script>
+</head>
+<body>
+<nav>
+    <ul class="main-menu">
+        <li class="list-name"><a class="name" href="">Safiri</a></li>
+        <li class="list-item"><a class="item" href="busses.html" id="active">Back</a></li>
+    </ul>
+</nav>
+
+
+<div class="container">
+    <h3>Pick Seat</h3>
+    <hr>
+    <div class="row">
+        <div class="table col-sm-4">
+            <table class="table table-striped" >
+                <tr>
+                    <td><label>1A <input type="checkbox"></label></td>
+                    <td><label>2A <input type="checkbox"></label></td>
+                    <td>Driver</td>
+                </tr>
+                <tr>
+                    <td><label>3A <input type="checkbox"></label></td>
+                    <td><label>4B <input type="checkbox"></label></td>
+                    <td><label>5C <input type="checkbox"></label></td>
+                </tr>
+                <tr>
+                    <td><label>6A <input type="checkbox"></label></td>
+                    <td><label>7B <input type="checkbox"></label></td>
+                    <td><label>8C <input type="checkbox"></label></td>
+                </tr>
+                <tr>
+                    <td><label>9A <input type="checkbox"></label></td>
+                    <td><label>10B <input type="checkbox"></label></td>
+                    <td><label>11B <input type="checkbox"></label></td>
+                </tr>
+                <tr>
+                    <td><label>12A <input type="checkbox"></label></td>
+                    <td><label>13B <input type="checkbox"></label></td>
+                    <td><label>14C <input type="checkbox"></label></td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="col-sm-6">
+            <h4>Enter Details</h4>
+            <div class="seat">
+                <form action="Thankyou.html" method="get">
+                    <label>
+                        <input type="text" name="text" placeholder="First Name" autocomplete="off" autocapitalize="on"
+                               class="form-control" required style="border: 2px solid black">
+                    </label>
+                    <label>
+                        <input type="text" name="text" placeholder="Last Name" autocomplete="off"
+                               class="form-control" required style="border: 2px solid black">
+                    </label>
+                    <label>
+                        <input type="text" name="text" placeholder="Phone Number" autocomplete="off"
+                               class="form-control" required style="border: 2px solid black">
+                    </label>
+                    <label>
+                        <input type="text" name="text" placeholder="Seat No" autocomplete="off"
+                               class="form-control" required style="border: 2px solid black">
+                    </label>
+                    <label>
+                        <input type="text" name="text" placeholder="Date of Travel" autocomplete="off"
+                               class="form-control" required style="border: 2px solid black">
+                    </label>
+                    <label>
+                        <input type="text" name="text" placeholder="Destination" autocomplete="off"
+                               class="form-control" required style="border: 2px solid black">
+                    </label>
+                    <br>
+                    <div class="cb">
+                        <button type="submit" class="btn btn-primary">submit</button>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+    </div>
+</div>
+</body>
+</html>

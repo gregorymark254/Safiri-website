@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>About</title>
+    <link rel="shortcut icon" href="images/favicon.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <script src="bootstrap/js/jquery-3.6.0.js"></script>
+    <script src="bootstrap/js/popper.min.js"></script>
+    <script src="bootstrap/js/bootstrap.js"></script>
+</head>
+
+ <body>
+ <nav>
+     <ul class="main-menu">
+         <li class="list-name"><a class="name" href="">Safiri</a></li>
+         <li class="list-item"><a class="item" href="Contact%20Us.html">Contact Us</a></li>
+         <li class="list-item"><a class="item" href="About%20us.html">About Us</a></li>
+         <li class="list-item"><a class="item" href="Print%20Ticket.html">Print Ticket</a></li>
+         <li class="list-item"><a class="item" href="Prices.html">Prices</a></li>
+         <li class="list-item"><a class="item" href="Home.html" id="active">Home</a></li>
+     </ul>
+ </nav>
+
+<div class="container">
+
+    <div class="heading">
+        <h1 style="text-align: center">OUR SERVICES</h1>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-6">
+            <img src="images/About.jpg" alt="About1" width="500" height="300">
+        </div>
+        <div class="col-sm-6">
+            <h2><u>Bus Charter</u></h2>
+            <p class="text-justify" style="font-size: 18px;font-family: cursive">
+                We've got years of experience with executive Bus Charter services. We know you want to arrive comfortably and on time, and we are the people to guarantee just that.
+                We take pride in all our vehicles and work hard to take you to any location in the greater Western, Nyanza and Coastal region. We invest the necessary time in communication and preparation to guarantee you safe arrival.
+                Feel free to call for more information or to make any reservation.</p>
+        </div>
+    </div>
+    <hr>
+    <div class="row">
+        <div class="col-sm-6">
+            <h2><u>Travelling</u></h2>
+            <p class="text-justify" style="font-size: 18px;font-family: cursive">
+                WHY TRAVEL WITH US? Making the right travel arrangement is the Genesis of any good journey. Safiri offers a reliable and most comfort way to the desire of our customers. Safiri is thriving to be Kenya's online bus ticket platform
+                and will simply easen transport problems. Anybody can use the system and get themselves a ticket to their desired location from the comfort of their home without having to come to our bus station.
+                Our drivers are well-trained, and we ensure you will arrive at your destination safe and in good health.
+            </p>
+        </div>
+        <div class="col-sm-6">
+            <img src="images/About1.jpg" alt="About 2" width="500" height="300">
+        </div>
+    </div>
+
+    <hr>
+
+    <div class="row">
+        <div class="col-sm-6">
+            <img src="images/parcel.jpg" alt="flex image" width="500" height="300">
+        </div>
+        <div class="col-sm-6">
+            <h2><u>Parcel Delivery</u></h2>
+            <p class="text-justify" style="font-size: 18px;font-family: cursive">
+                If your freight needs to get to where it’s going in a hurry, Safiri parcel is usually your best bet. While some companies do offer guaranteed or expedited shipping, many don’t, so your options will be limited when shopping for rates.
+                Not only that, but as with parcel carriers, you’ll pay a premium if your shipment needs to arrive within a tight window. At Safiri we offer the best rates at cheaper prices and make sure your parcel is received on time. Not only that but we ensure no
+                damage has occurred on your parcel, and it does not get lost until it reaches the required destination
+            </p>
+        </div>
+    </div>
+
+
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    <script>
+        //Get the button
+        let mybutton = document.getElementById("myBtn");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+</div>
+
+ </body>
+</html>
